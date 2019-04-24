@@ -20,21 +20,21 @@ html {
   
   h1{
     font-size:76px;
-    @include phone{
-      font-size:32px;
-    }
     @include tablet{
       font-size: 64px;
+    }
+    @include phone{
+      font-size:32px;
     }
   }
   h2{
     font-weight:400;
     font-size:41px;
-    @include phone{
-      font-size:14px;
-    }
     @include tablet{
       font-size: 36px;
+    }
+    @include phone{
+      font-size:14px;
     }
   }
 

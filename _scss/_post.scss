@@ -13,12 +13,13 @@ h2.post-wrapper{
     font-size:71px;
     margin-top: $base-spacing;
     margin-bottom: $base-spacing * 0.25;
+    @include tablet{
+        font-size: 61px;
+    }
     @include phone{
         font-size:24px;
     }
-    @include tablet{
-        font-size: 61px;
-      }
+    
 }
 
 section.post-wrapper{
