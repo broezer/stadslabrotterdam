@@ -1,2 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Roboto:300,400,500");
+html {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 100%;
+  line-height: 1.5; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Mono", monospace;
+  font-size: modular-scale(1);
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+h1 {
+  font-size: 76px; }
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 32px; } }
+  @media (max-width: 1219px) {
+    h1 {
+      font-size: 64px; } }
+
+h2 {
+  font-weight: 400;
+  font-size: 41px; }
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 14px; } }
+  @media (max-width: 1219px) {
+    h2 {
+      font-size: 36px; } }
+
+p {
+  margin: 0 0 0.75em;
+  font-size: 21px;
+  letter-spacing: 0.05em;
+  line-height: 1.6em; }
+  @media (max-width: 767px) {
+    p {
+      font-size: 12px; } }
+
+strong {
+  font-weight: 500; }
+
+a {
+  color: #1565c0;
+  -webkit-text-decoration-skip: auto;
+          text-decoration-skip: auto;
+  -webkit-transition: color 150ms ease;
+  -o-transition: color 150ms ease;
+  transition: color 150ms ease; }
+  a:hover {
+    color: shade(#1565c0, 25%); }
+  a:focus {
+    outline: 3px solid rgba(21, 101, 192, 0.6);
+    outline-offset: 2px; }
+
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1.5em 0; }
+
 body {
-  background: white; }
+  background: white;
+  margin: 0;
+  padding: 0; }
+
+.wrapper, img, main, .hero__meta h1, .hero__meta h2 {
+  display: block;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto; }
+
+img {
+  margin-top: 6em;
+  margin-bottom: 6em;
+  max-width: 100%; }
+  @media (max-width: 767px) {
+    img {
+      margin-top: 3em;
+      margin-bottom: 3em; } }
+
+main {
+  padding-bottom: 6em;
+  padding-left: 4%;
+  padding-right: 4%; }
+
+@media (max-width: 767px) {
+  .logo {
+    max-width: 50%; } }
+
+.hero {
+  min-height: -webkit-calc((9 / 16) * 100vw);
+  min-height: calc((9 / 16) * 100vw);
+  position: relative;
+  background-image: url("../assets/img/stadslab.jpg");
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center center; }
+  .hero--post {
+    min-height: -webkit-calc((9 / 21) * 100vw);
+    min-height: calc((9 / 21) * 100vw); }
+
+.hero__meta {
+  position: absolute;
+  bottom: 5vw;
+  width: 100%; }
+  .hero__meta h1, .hero__meta h2 {
+    padding-left: 4%;
+    padding-right: 4%;
+    color: white;
+    margin-bottom: 0; }
+
+.post-wrapper {
+  max-width: 75%;
+  margin: 0 auto; }
+  @media (max-width: 767px) {
+    .post-wrapper {
+      max-width: 100%; } }
+  @media (max-width: 1219px) {
+    .post-wrapper {
+      max-width: 90%; } }
+
+h2.post-wrapper {
+  font-size: 71px;
+  margin-top: 1.5em;
+  margin-bottom: 0.375em; }
+  @media (max-width: 767px) {
+    h2.post-wrapper {
+      font-size: 24px; } }
+  @media (max-width: 1219px) {
+    h2.post-wrapper {
+      font-size: 61px; } }
+
+section.post-wrapper h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 1.3em;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0; }
+  @media (max-width: 767px) {
+    section.post-wrapper h3 {
+      font-size: 16px; } }
+
+section.post-wrapper p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 21px;
+  margin-bottom: 1.5em; }
+  @media (max-width: 767px) {
+    section.post-wrapper p {
+      font-size: 11px; } }
+
+section.post-wrapper ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 2.75em; }
+  @media (max-width: 767px) {
+    section.post-wrapper ul {
+      font-size: 12px; } }

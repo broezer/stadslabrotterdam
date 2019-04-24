@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Roboto:300,400,500');
+
+$base-font-family: 'Roboto', sans-serif;
+$heading-font-family: 'Roboto Mono', monospace;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: 1.5em;
+$small-spacing: $base-spacing / 2;
+$base-z-index: 0;
+
+// Colors
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: $blue;
+
+// Border
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;
+
+// Background Colors
+$viewport-background-color: #fff;
+
+// Focus
+$focus-outline-color: transparentize($action-color, 0.4);
+$focus-outline-width: 3px;
+$focus-outline: $focus-outline-width solid $focus-outline-color;
+$focus-outline-offset: 2px;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+// Aspect Ratio Mixin
+@mixin ratio($width, $height) {
+    min-height: calc((#{$height} / #{$width}) * 100vw);
+  }
+
+//Media queries
+$tablet-width: 768px;
+$desktop-width: 1220px;
+
+
+@mixin phone {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+
+@mixin tablet {
+  @media (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+// ----
+// libsass (v3.3.6)
+// ----
+
+// =========================================================================
+//
+//  PRECISE CONTROL OVER RESPONSIVE TYPOGRAPHY FOR SASS
+//  ---------------------------------------------------
+//  Indrek Paas @indrekpaas
+//
+//  Inspired by Mike Riethmuller's Precise control over responsive typography
+//  http://madebymike.com.au/writing/precise-control-responsive-typography/
+//
+//  `strip-unit()` function by Hugo Giraudel
+//
+//  11.08.2016 Remove redundant `&` self-reference
+//  31.03.2016 Remove redundant parenthesis from output
+//  02.10.2015 Add support for multiple properties
+//  24.04.2015 Initial release
+//
+// =========================================================================
+
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  @each $property in $properties {
+    #{$property}: $min-value;
+  }
+
+  @media screen and (min-width: $min-vw) {
+    @each $property in $properties {
+      #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * (100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)});
+    }
+  }
+
+  @media screen and (min-width: $max-vw) {
+    @each $property in $properties {
+      #{$property}: $max-value;
+    }
+  }
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}

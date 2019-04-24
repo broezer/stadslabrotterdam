@@ -10,10 +10,20 @@
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
-    <body>
-          <header class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+    <body class="{{ page.classes }}">
+          <header class="header hero">
+            <section class="hero__meta">
+                <h1 class="title">{{ site.name }}</h1>
+                <h2 class="location">
+                  Hogeschool Rotterdam,Wijnhaven 101<br/>
+                  3011 WN Rotterdam
+                </h2>
+            </section>
+            
           </header>
-          {{ content }}
+          <main>
+              {{ content }}
+          </main>
+          
     </body>
 </html>

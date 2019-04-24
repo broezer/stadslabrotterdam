@@ -1,0 +1,53 @@
+.post-wrapper{
+    max-width: 75%;
+    margin: 0 auto;
+    @include phone{
+        max-width:100%;
+    }
+    @include tablet{
+        max-width:90%;
+      }
+}
+
+h2.post-wrapper{
+    font-size:71px;
+    margin-top: $base-spacing;
+    margin-bottom: $base-spacing * 0.25;
+    @include phone{
+        font-size:24px;
+    }
+    @include tablet{
+        font-size: 61px;
+      }
+}
+
+section.post-wrapper{
+    h3{
+        font-family: $base-font-family;
+        font-size: 24px;
+        line-height: 1.3em;
+        font-weight:700;
+        margin-top:0;
+        margin-bottom:0;
+        @include phone{
+            font-size:16px;
+        }
+    }
+    p{  
+        font-family: $heading-font-family;
+        font-size: 21px;
+        margin-bottom: $base-spacing;
+        @include phone{
+            font-size:11px;
+          }
+    }
+    ul{ 
+        font-family: $base-font-family;
+        font-size: 24px;
+        font-weight:300;
+        line-height:2.75em;
+        @include phone{
+            font-size:12px;
+        }
+    }
+}

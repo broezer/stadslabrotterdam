@@ -1,0 +1,23 @@
+.hero{
+    @include ratio(16, 9);
+    position: relative;
+    background-image:url('../assets/img/stadslab.jpg');
+    background-size:cover;
+    background-position:center center;
+    &--post{
+        @include ratio(21, 9);
+    }
+}
+
+.hero__meta{
+    position:absolute;
+    bottom:5vw;
+    width:100%;
+    h1,h2{
+        @extend .wrapper;
+        padding-left:4%;
+        padding-right:4%;
+        color:white;
+        margin-bottom:0;
+    }
+}
