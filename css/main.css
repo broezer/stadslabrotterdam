@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Work+Sans:600");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Work+Sans:400,600");
 html {
   color: #333;
   font-family: "Roboto", sans-serif;
@@ -123,6 +123,10 @@ main {
     font-size: 23px;
     line-height: 30px;
     font-weight: 400; }
+  .hero__meta h1.title {
+    line-height: 0.9em; }
+    .hero__meta h1.title .light {
+      font-weight: 400; }
 
 .container {
   position: absolute;
