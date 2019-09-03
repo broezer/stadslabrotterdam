@@ -11,4 +11,4 @@ classes: home
 
 ![alt text](assets/svg/stadslabs.svg "SensorLab FabLab DataLab")
 
-![alt text](assets/svg/hours.svg "Openingstijden Stadslab")
+![alt text](assets/img/hours.png "Openingstijden Stadslab")
