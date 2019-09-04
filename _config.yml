@@ -5,3 +5,4 @@ exclude: ["node_modules", "gulpfile.js", "package.json"]
 collections:
     machines:
       output: true
+baseurl: /stadslabrotterdam
