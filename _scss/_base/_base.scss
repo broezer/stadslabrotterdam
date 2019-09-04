@@ -55,9 +55,16 @@ $base-timing: ease;
   }
 
 //Media queries
+$phone-width: 440px;
 $tablet-width: 768px;
 $desktop-width: 1220px;
 
+
+@mixin small-phone {
+  @media (max-width: #{$phone-width - 1px}) {
+    @content;
+  }
+}
 
 @mixin phone {
   @media (max-width: #{$tablet-width - 1px}) {

@@ -1,0 +1,60 @@
+section.hours{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @extend p;
+    h2{
+        @extend h1;
+        width:100%;
+        text-align:center;
+    }
+    
+    table{
+        width: 49.6%;
+        display: flex;
+        flex-wrap: wrap;
+        color:white;
+        @include small-phone{
+            width:100%;
+            margin-bottom:2em;
+            
+        }
+    }
+    thead{
+        width: 100%;
+        text-align: center;
+        line-height: 1.5em;
+        padding-top: 0.2em;
+        tr{
+            width: 100%;
+            display: inline;
+        }
+    }
+    tbody{
+        display: inline-block;
+        margin: 0 auto;
+        padding:1em 0;
+        td:first-child{
+            padding-right:4vw;
+        }
+        font-size:18px;
+        line-height: 2em;
+        @include phone{
+            font-size:10px;
+        }
+    }
+    table.education{
+        background:rgba($color-red, 0.3);
+        thead{
+            background: $color-red;
+        }
+    }
+    table.public{
+        background:rgba($color-purple, 0.3);
+        thead{
+            background: $color-purple;
+        }
+    }
+    
+}
