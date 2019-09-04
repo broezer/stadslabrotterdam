@@ -51,7 +51,7 @@ $button-width: 35px;
 
 
 .button_container {
-  position: fixed;
+  position: absolute;
   top: 5%;
   right: 2%;
   height: $button-height;
@@ -79,7 +79,13 @@ $button-width: 35px;
       background: $color-active;
     }
   }
-  
+  nav{
+    color: white;
+    transform: translate3d(-52px,2px,-0);
+    @include phone{
+      display: none;
+    }
+  }
   span {
   background: white;
   border: none;

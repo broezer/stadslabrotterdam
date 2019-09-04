@@ -15,7 +15,7 @@ h6 {
   font-size: modular-scale(1);
   font-weight: 600;
   line-height: 1.2;
-  margin: 0 0 0.75em; }
+  margin: 0 0 0.375em; }
 
 h1 {
   font-size: 76px; }
@@ -36,13 +36,13 @@ h2 {
     h2 {
       font-size: 14px; } }
 
-p {
+p, .hero--post h1 {
   margin: 0 0 0.75em;
   font-size: 21px;
   letter-spacing: 0.05em;
   line-height: 1.6em; }
   @media (max-width: 767px) {
-    p {
+    p, .hero--post h1 {
       font-size: 12px; } }
 
 strong {
@@ -98,16 +98,24 @@ main {
     max-width: 50%; } }
 
 .hero {
-  min-height: -webkit-calc((9 / 16) * 100vw);
-  min-height: calc((9 / 16) * 100vw);
+  min-height: -webkit-calc((7 / 16) * 100vw);
+  min-height: calc((7 / 16) * 100vw);
   position: relative;
   background-image: url("../assets/img/stadslab_front.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center center; }
+  @media (max-width: 767px) {
+    .hero {
+      min-height: -webkit-calc((12 / 16) * 100vw);
+      min-height: calc((12 / 16) * 100vw); } }
   .hero--post {
-    min-height: -webkit-calc((9 / 21) * 100vw);
-    min-height: calc((9 / 21) * 100vw); }
+    min-height: -webkit-calc((1 / 5) * 100vw);
+    min-height: calc((1 / 5) * 100vw); }
+    @media (max-width: 767px) {
+      .hero--post {
+        min-height: -webkit-calc((2 / 8) * 100vw);
+        min-height: calc((2 / 8) * 100vw); } }
 
 .hero__meta {
   position: absolute;
@@ -118,15 +126,28 @@ main {
     padding-right: 4%;
     color: white;
     margin-bottom: 0; }
+  @media (max-width: 767px) {
+    .hero__meta h1 {
+      font-size: 24px; } }
   .hero__meta h2 {
     font-family: "Work Sans", sans-serif;
-    font-size: 23px;
+    font-size: 26px;
     line-height: 30px;
     font-weight: 400; }
+    @media (max-width: 767px) {
+      .hero__meta h2 {
+        font-size: 16px;
+        line-height: 1em; } }
   .hero__meta h1.title {
     line-height: 0.9em; }
     .hero__meta h1.title .light {
       font-weight: 400; }
+
+.hero--post h1 {
+  font-weight: 300;
+  color: white; }
+  .hero--post h1 a:link, .hero--post h1 a:active, .hero--post h1 a:hover, .hero--post h1 a:visited {
+    color: white; }
 
 .container {
   position: absolute;
@@ -138,7 +159,7 @@ main {
   margin: 0 auto;
   font-family: "Work Sans", sans-serif;
   font-weight: 500; }
-  .container p {
+  .container p, .container .hero--post h1, .hero--post .container h1 {
     font-size: 20px; }
   .container a {
     display: inline-block;
@@ -167,7 +188,7 @@ main {
       width: 100%; }
 
 .button_container {
-  position: fixed;
+  position: absolute;
   top: 5%;
   right: 2%;
   height: 27px;
@@ -192,6 +213,13 @@ main {
         -ms-transform: translateY(-11px) translateX(0) rotate(-45deg);
             transform: translateY(-11px) translateX(0) rotate(-45deg);
     background: #FFF; }
+  .button_container nav {
+    color: white;
+    -webkit-transform: translate3d(-52px, 2px, 0);
+            transform: translate3d(-52px, 2px, 0); }
+    @media (max-width: 767px) {
+      .button_container nav {
+        display: none; } }
   .button_container span {
     background: white;
     border: none;
@@ -306,6 +334,22 @@ main {
     opacity: 1;
     left: 0; } }
 
+footer.footer {
+  width: 100vw;
+  background-color: #ffce00;
+  color: white;
+  text-align: center;
+  padding: 15px 10px 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  footer.footer p, footer.footer .hero--post h1, .hero--post footer.footer h1 {
+    font-size: 16px; }
+    @media (max-width: 767px) {
+      footer.footer p, footer.footer .hero--post h1, .hero--post footer.footer h1 {
+        font-size: 10px; } }
+    footer.footer p a:link, footer.footer .hero--post h1 a:link, .hero--post footer.footer h1 a:link, footer.footer p a:active, footer.footer .hero--post h1 a:active, .hero--post footer.footer h1 a:active, footer.footer p a:hover, footer.footer .hero--post h1 a:hover, .hero--post footer.footer h1 a:hover, footer.footer p a:visited, footer.footer .hero--post h1 a:visited, .hero--post footer.footer h1 a:visited {
+      color: white; }
+
 .post-wrapper {
   max-width: 75%;
   margin: 0 auto; }
@@ -349,10 +393,10 @@ section.post-wrapper {
     @media (max-width: 767px) {
       section.post-wrapper h3 {
         font-size: 16px; } }
-  section.post-wrapper p, section.post-wrapper ul {
+  section.post-wrapper p, section.post-wrapper .hero--post h1, .hero--post section.post-wrapper h1, section.post-wrapper ul {
     font-family: "Work Sans", sans-serif;
     font-size: 21px;
     margin-bottom: 1.5em; }
     @media (max-width: 767px) {
-      section.post-wrapper p, section.post-wrapper ul {
+      section.post-wrapper p, section.post-wrapper .hero--post h1, .hero--post section.post-wrapper h1, section.post-wrapper ul {
         font-size: 11px; } }

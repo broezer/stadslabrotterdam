@@ -14,7 +14,9 @@
           {% include menu.html %}
           <header class="header hero hero--post">
             <section class="hero__meta">
-                <h1 class="title">{{ page.title }}</h1>
+                <h1 class="title">
+                  <a href="{{site.baseurl}}/" title="Stadslab Rotterdam - Home"><strong>Stadslab</strong> Rotterdam</a> - {{ page.title }}
+                </h1>
             </section>
             
           </header>
@@ -25,8 +27,9 @@
             <section class="post-wrapper">
                 {{ content }}
             </section>
-            
+          
           </main>
+          {% include footer.html %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="../js/main.js"></script>
     </body>
