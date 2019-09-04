@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Work+Sans:400,600");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500|Work+Sans:400, 500,600");
 html {
   color: #333;
-  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
   font-size: 100%;
   line-height: 1.5; }
 
@@ -46,7 +46,7 @@ p {
       font-size: 12px; } }
 
 strong {
-  font-weight: 500; }
+  font-weight: 600; }
 
 a {
   color: #1565c0;
@@ -101,7 +101,7 @@ main {
   min-height: -webkit-calc((9 / 16) * 100vw);
   min-height: calc((9 / 16) * 100vw);
   position: relative;
-  background-image: url("../assets/img/stadslab.jpg");
+  background-image: url("../assets/img/stadslab_front.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center center; }
@@ -119,7 +119,7 @@ main {
     color: white;
     margin-bottom: 0; }
   .hero__meta h2 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Work Sans", sans-serif;
     font-size: 23px;
     line-height: 30px;
     font-weight: 400; }
@@ -144,7 +144,7 @@ main {
     display: inline-block;
     position: relative;
     text-align: center;
-    color: #E8AE21;
+    color: #ffce00;
     text-decoration: none;
     font-size: 20px;
     overflow: hidden;
@@ -152,7 +152,7 @@ main {
     .container a:after {
       content: '';
       position: absolute;
-      background: #E8AE21;
+      background: #ffce00;
       height: 2px;
       width: 0%;
       -webkit-transform: translateX(-50%);
@@ -211,7 +211,7 @@ main {
 
 .overlay {
   position: fixed;
-  background: #E8AE21;
+  background: #ffce00;
   top: 0;
   left: 0;
   width: 100%;
@@ -327,30 +327,32 @@ h2.post-wrapper {
     h2.post-wrapper {
       font-size: 24px; } }
 
-section.post-wrapper h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  line-height: 1.3em;
-  font-weight: 700;
-  margin-top: 0;
-  margin-bottom: 0; }
-  @media (max-width: 767px) {
-    section.post-wrapper h3 {
-      font-size: 16px; } }
-
-section.post-wrapper p {
-  font-family: "Work Sans", sans-serif;
-  font-size: 21px;
-  margin-bottom: 1.5em; }
-  @media (max-width: 767px) {
-    section.post-wrapper p {
-      font-size: 11px; } }
-
-section.post-wrapper ul {
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  line-height: 2.75em; }
-  @media (max-width: 767px) {
-    section.post-wrapper ul {
-      font-size: 12px; } }
+section.post-wrapper {
+  /*
+    ul{ 
+        font-family: $base-font-family;
+        font-size: 24px;
+        font-weight:300;
+        //line-height:2.75em;
+        @include phone{
+            font-size:12px;
+        }
+    }
+    */ }
+  section.post-wrapper h3 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    line-height: 1.3em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0; }
+    @media (max-width: 767px) {
+      section.post-wrapper h3 {
+        font-size: 16px; } }
+  section.post-wrapper p, section.post-wrapper ul {
+    font-family: "Work Sans", sans-serif;
+    font-size: 21px;
+    margin-bottom: 1.5em; }
+    @media (max-width: 767px) {
+      section.post-wrapper p, section.post-wrapper ul {
+        font-size: 11px; } }

@@ -34,7 +34,7 @@ section.post-wrapper{
             font-size:16px;
         }
     }
-    p{  
+    p, ul{  
         font-family: $heading-font-family;
         font-size: 21px;
         margin-bottom: $base-spacing;
@@ -42,13 +42,15 @@ section.post-wrapper{
             font-size:11px;
           }
     }
+    /*
     ul{ 
         font-family: $base-font-family;
         font-size: 24px;
         font-weight:300;
-        line-height:2.75em;
+        //line-height:2.75em;
         @include phone{
             font-size:12px;
         }
     }
+    */
 }
