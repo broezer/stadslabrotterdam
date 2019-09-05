@@ -58,3 +58,9 @@ section.hours{
     }
     
 }
+
+.post-wrapper section.hours h2{
+    @extend p;
+    text-align: left;
+    margin-bottom:0 !important;
+}
