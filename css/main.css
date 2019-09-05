@@ -335,7 +335,7 @@ main {
     left: 0; } }
 
 footer.footer {
-  width: 100vw;
+  width: 100%;
   background-color: #ffce00;
   color: white;
   text-align: center;
