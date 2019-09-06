@@ -27,6 +27,13 @@ img{
       }
 }
 
+.post-wrapper{
+    img{
+        margin-top: 0;
+        margin-bottom: 0; 
+    }
+}
+
 main{
     @extend .wrapper;
     padding-bottom: $base-spacing * 4;

@@ -42,6 +42,12 @@ section.post-wrapper{
             font-size:11px;
           }
     }
+    ul{
+        line-height:2em;
+        ul{
+            margin-bottom:0;
+        }
+    }
     /*
     ul{ 
         font-family: $base-font-family;

@@ -144,10 +144,13 @@ $button-width: 35px;
     height: 70%;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 50px;
+    font-size: 32px;
     font-family: $heading-font-family;
     font-weight: 500;
     text-align: center;
+    @include phone{
+      font-size:24px;
+    }
   }
   ul {
     list-style: none;
@@ -156,11 +159,21 @@ $button-width: 35px;
     display: inline-block;
     position: relative;
     height: 100%; 
-    
+    ul.submenu{
+      font-size:21px;
+      @include phone{
+        font-size: 16px;
+        
+      }
+      li{
+        min-height:30px;
+      }
+    }
     li {
       display: block;
-      height: 25%;
-      height: calc(100% / 4);
+      //height: 25%;
+      //height: calc(100% / 4);
+      height:auto;
       min-height: 50px;
       position: relative;
       opacity: 0;

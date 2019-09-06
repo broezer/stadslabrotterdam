@@ -10,7 +10,7 @@
     &--post{
         @include ratio(5, 1);
         @include phone{
-            @include ratio(8,2);
+            @include ratio(5,2);
         }
     }
 }
@@ -61,5 +61,15 @@
         a:link, a:active, a:hover, a:visited{
             color:white;
         }
+        @include phone{
+            font-size:12px;
+        } 
+    }
+    .hero__meta{
+        bottom:2vw;
+        @include phone{
+            bottom:5vw;
+        }
+        
     }
 }

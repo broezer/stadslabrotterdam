@@ -88,6 +88,10 @@ img {
       margin-top: 3em;
       margin-bottom: 3em; } }
 
+.post-wrapper img {
+  margin-top: 0;
+  margin-bottom: 0; }
+
 main {
   padding-bottom: 6em;
   padding-left: 4%;
@@ -114,8 +118,8 @@ main {
     min-height: calc((1 / 5) * 100vw); }
     @media (max-width: 767px) {
       .hero--post {
-        min-height: -webkit-calc((2 / 8) * 100vw);
-        min-height: calc((2 / 8) * 100vw); } }
+        min-height: -webkit-calc((2 / 5) * 100vw);
+        min-height: calc((2 / 5) * 100vw); } }
 
 .hero__meta {
   position: absolute;
@@ -148,6 +152,15 @@ main {
   color: white; }
   .hero--post h1 a:link, .hero--post section.hours h2 a:link, section.hours .hero--post h2 a:link, .hero--post h1 a:active, .hero--post section.hours h2 a:active, section.hours .hero--post h2 a:active, .hero--post h1 a:hover, .hero--post section.hours h2 a:hover, section.hours .hero--post h2 a:hover, .hero--post h1 a:visited, .hero--post section.hours h2 a:visited, section.hours .hero--post h2 a:visited {
     color: white; }
+  @media (max-width: 767px) {
+    .hero--post h1, .hero--post section.hours h2, section.hours .hero--post h2 {
+      font-size: 12px; } }
+
+.hero--post .hero__meta {
+  bottom: 2vw; }
+  @media (max-width: 767px) {
+    .hero--post .hero__meta {
+      bottom: 5vw; } }
 
 .container {
   position: absolute;
@@ -276,10 +289,13 @@ main {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    font-size: 50px;
+    font-size: 32px;
     font-family: "Work Sans", sans-serif;
     font-weight: 500;
     text-align: center; }
+    @media (max-width: 767px) {
+      .overlay nav {
+        font-size: 24px; } }
   .overlay ul {
     list-style: none;
     padding: 0;
@@ -287,11 +303,16 @@ main {
     display: inline-block;
     position: relative;
     height: 100%; }
+    .overlay ul ul.submenu {
+      font-size: 21px; }
+      @media (max-width: 767px) {
+        .overlay ul ul.submenu {
+          font-size: 16px; } }
+      .overlay ul ul.submenu li {
+        min-height: 30px; }
     .overlay ul li {
       display: block;
-      height: 25%;
-      height: -webkit-calc(100% / 4);
-      height: calc(100% / 4);
+      height: auto;
       min-height: 50px;
       position: relative;
       opacity: 0; }
@@ -462,3 +483,7 @@ section.post-wrapper {
     @media (max-width: 767px) {
       section.post-wrapper p, section.post-wrapper .hero--post h1, .hero--post section.post-wrapper h1, .hero--post section.hours section.post-wrapper h2, section.hours .hero--post section.post-wrapper h2, section.post-wrapper section.hours, section.post-wrapper section.hours h2, section.post-wrapper ul {
         font-size: 11px; } }
+  section.post-wrapper ul {
+    line-height: 2em; }
+    section.post-wrapper ul ul {
+      margin-bottom: 0; }

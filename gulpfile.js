@@ -45,4 +45,13 @@ function sassBuild(){
 exports.default = series(parallel(sassBuild, jekyllBuild), browserSyncInit );
 
 watch('./_scss/**/*.scss', sassBuild);
-watch(['*.html', '*.md','_layouts/*.html' , '_posts/*',  '_machines/*', '_data/*', 'labs/*', 'kosten/*' ,'open-badge/*'], series(jekyllBuild,browserSyncReload ));
+watch(['*.html', 
+        '*.md',
+        '_layouts/*.html' , 
+        '_posts/*',  
+        '_machines/**', 
+        '_data/*', 
+        'contact/*',
+        'labs/*', 
+        'kosten/*' ,
+        'open-badge/*'], series(jekyllBuild,browserSyncReload ));
