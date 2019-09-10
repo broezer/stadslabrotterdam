@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inschrijfing Open Badges
+title: Inschrijving Open Badges
 classes: 
 ---
 

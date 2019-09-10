@@ -101,6 +101,12 @@ main {
   .logo {
     max-width: 50%; } }
 
+.costs thead {
+  text-align: left; }
+
+.costs td {
+  padding-right: 2em; }
+
 .hero {
   min-height: -webkit-calc((7 / 16) * 100vw);
   min-height: calc((7 / 16) * 100vw);

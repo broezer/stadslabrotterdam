@@ -19,7 +19,7 @@ Om een badge te kunnen verdienen heb je een EduID nodig. Volg deze stappen om vo
 - Maak een EduID aan op [https://eduid.pilot.eduid.nl/portal/login](https://eduid.pilot.eduid.nl/portal/login)
 - Gebruik (indien mogelijk) je HR e-mailadres.
 - Bevestig de e-mail die je krijgt.
-- Login op [https://pilot.eduid.nl/portal/login](https://pilot.eduid.nl/portal/login) en koppel aan onderwijsinstelling HRO (bij beveiligingsinstellingen)
+- Login op [https://pilot.eduid.nl/portal/login](https://pilot.eduid.nl/portal/login) en koppel aan onderwijsinstelling HRO. Dit doe je op de pagina beveiligingsinstellingen en druk dan bij 'gekoppelde accounts' op SURFconext.
 - Ga naar [https://pilot.edubadges.nl](https://pilot.edubadges.nl) en geef toestemming. Schrijf je in voor een van de open badges workshops (als je de kennis nog niet bezit) of schrijf je meteen in voor een backpack sessie waarop je bewijst dat je de badge verdient (/deze skill beheerst).
 
 Alle mogelijke momenten van workshops en sessies vind je hier: [https://stadslabrotterdam.nl/open-badge/inschrijving-open-badges/](https://stadslabrotterdam.nl/open-badge/inschrijving-open-badges/)

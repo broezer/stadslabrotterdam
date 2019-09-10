@@ -7,7 +7,7 @@ title: Vacuum Formers
 
 ![](img/1210.jpg)
 
-## Singer Talent 3321 
+## Vacuum Former 1210 
 
 ### Specificaties
 
