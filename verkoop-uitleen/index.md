@@ -1,0 +1,13 @@
+---
+layout: post
+title: Verkoop & Uitleen
+classes: 
+---
+
+![alt text](../assets/svg/logo.svg "Stadslab"){: .logo}
+
+**Het Stadslab heeft een winkeltje voor studenten met artikel die veel gebruikt worden binnen de opleidingen, zoals hardware, elektronica, markers etc. De artikelen die te koop zijn, vind je hier: [https://sites.google.com/a/hr.nl/stadslab-winkel-test/](https://sites.google.com/a/hr.nl/stadslab-winkel-test/)**
+
+Daarnaast heeft het Stadslab ook een uitleenbalie, waar je audiovisueel materiaal voor een bepaalde periode kunt lenen. De openingstijden zijn ma t/m vrij 9.00 - 17.00 uur.
+De artikelen die je kunt lenen, vind je hier: [http://uitleen.cmi.hr.nl/ 
+](http://uitleen.cmi.hr.nl/)

@@ -4,123 +4,69 @@ title: Inschrijving Open Badges
 classes: 
 ---
 
-<p>Schrijf je hier in voor 1 of meerdere workshops of backpack sessions (zie onder) om een open badge te verdienen. LET OP! Gebruik alleen het formulier van de datum waarop je je wilt inschrijven. Vol = vol!</p>
+Maandag, 3. februari 10:00 - 11:30 uur<br />
+<a href="https://drive.google.com/open?id=1jO71EuOOMLdR4mftxQGUSoj5OR071vnEJELZk2xRuIg">Workshop Lasercutting Basic</a>
 
+Woensdag, 5 februari 15:00 - 16:30 uur<br />
+<a href="https://drive.google.com/open?id=1lt8NKft-pnWl7-vc8PsEVD0nd6P0-ilfll-JlEis9cU">Workshop Arduino Basic</a>
 
-<p>vrijdag, 6. September 09:30 – 11:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSebZO-oX4oLeyF1uSIXGRtLuJU816OADOfRnbBtkneHI7TnuA/viewform">MAKE Open Badge Lasersnijden Basic [CMI (20)]</a></p>
+Donderdag, 6 februari 13:00 - 14:30 uur<br />
+<a href="https://drive.google.com/open?id=1CBKUa3_r8gWhikrOgkhius-UKpRUSATrVsQf0ZLWmI4">Workshop Lasercutting Advanced</a>
 
+Maandag, 10. februari 10:00 - 11:30 uur<br />
+<a href="https://drive.google.com/open?id=14M_-_kFh_rX-HXTNKjTNFQbtxJpZ8n1GBAoQixRsY2o">Workshop 3D printing Basic</a>
 
+Woensdag, 12 februari 15:00 - 16:30 uur<br />
+<a href="https://drive.google.com/open?id=1SPY1Ll6Fyxv5oB-YOykbe5uB3vxgOSR7RsC-bL2zjuQ">Workshop Microbit Basic</a>
 
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSebZO-oX4oLeyF1uSIXGRtLuJU816OADOfRnbBtkneHI7TnuA/viewform"></a>vrijdag, 6.&nbsp;September 14:00 – 15:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSfB-qKVVmGSakgSiS4pERSSFbhAU7zusRQHRL7CSrXzgql5Wg/viewform">MAKE Open Badge&nbsp; 3D printen Basic [CMI (12)]</a><br></p>
+Donderdag, 13 februari 13:00 - 14:30 uur<br />
+<a href="https://drive.google.com/open?id=1sUf8MDvmUToZrW3XFf9jJ04aDR0Ra6OwgfNY98xj5Ss">Workshop 3D printing Advanced</a>
 
+Maandag, 17 februari 10:00 - 11:30 uur<br />
+<a href="https://drive.google.com/open?id=14bStJgTKakL6DU974Qw27Rl94WeNlDbzs9si3smgYms">Workshop Lasercutting Basic</a>
 
+Woensdag, 19 februari 15:00 - 16:30 uur<br />
+<a href="https://drive.google.com/open?id=13LvS1BQj2_Xdt8TxMUpaVEy3sgNTFaoJUYC3wFzKCC0">Workshop Lasercutting Advanced</a>
 
-<p>donderdag, 12. September 11:00 – 12:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLScGecVU1hfZWzWcVBQLtDMq9vIP5efrfC-Zg_3IrXtHceUR_w/viewform﻿">MAKE Open Badge Lasersnijden Basic [CMI (20)]</a><br></p>
+Donderdag, 20 februari 13:00 - 14:30 uur<br />
+<a href="https://drive.google.com/open?id=1r30X-4216XYsYPO9tbRDaWZJEJgY924ZKsEMp9l-a10">Workshop Virtual Reality Basic</a>
 
+Maandag, 9 maart 10:00 - 11:30 uur<br />
+<a href="https://drive.google.com/open?id=10De3WQEuCVibZcnjuRU3zu1MzhxlErabohMjhUUAXW8">Workshop 3D Printing Basic</a>
 
+Woensdag, 11 maart 15:00 - 16:30 uur<br />
+<a href="https://drive.google.com/open?id=1DNJHuJRpbSzY9KJt4CHkJJoykTcxdhM7nmLMM0PUafY">Workshop Vinylcutting &amp; Vacuumforming</a>
 
-<p>donderdag, 12.&nbsp;September 13:00 – 14:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSfccSDoS_FwyHyq6WLsfLBeYEIXELLIvFQ6btyqAg39CScceg/viewform﻿">MAKE Open Badge&nbsp; 3D printen Basic [CMI (12)]</a><br></p>
+Donderdag, 12 maart 13:00 - 14:30 uur <br />
+<a href="https://drive.google.com/open?id=15J_Z5_NPqPrCibquKwwTQTYK1EXFJha7H00vbUh0Cvo">Workshop 3D Printing Advanced</a>
 
+Maandag, 16 maart 10:00 - 11:30 uur<br />
+<a href="https://drive.google.com/open?id=1xuiuaQr8mF18ddNfP89TRz1gzmOGu0gz0cLhGTZB9lY">Workshop Lasercutting Basic</a>
 
+Woensdag, 18 maart 15:00 - 16:30 uur<br />
+<a href="https://drive.google.com/open?id=1UXY9Fmhhu8C--a7MVIqdB8YvvoN74_0dIfWjLB5Y1Z0">Workshop Lasercutting Advanced</a>
 
-<p>donderdag, 12. September 15:00 – 16:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLScGwR0cmV3MKF4n8IW780RBVwHrcSa-WIHd4ZJDbxqT0nl4Sg/viewform">MAKE Open Badge Lasersnijden Advanced [CMI (8)]</a><br></p>
+Donderdag, 19 maart 13:00 - 14:30 uur<br />
+<a href="https://drive.google.com/open?id=1mltNkShWUySPLZ63EtaSWYWfutPgSR82PV5yp_yi9fg">Workshop Arduino Basic</a>
 
+Maandag, 23 maart 10:00 - 11:30 uur<br />
+<a href="https://drive.google.com/open?id=1CgU15aKZ_dKXxvhWVG0MwBZUEswAxvhJfixYl3j9b38">Workshop 3D Printing Basic</a>
 
+Woensdag, 25 maart 15:00 - 16:30 uur <br/>      
+<a href="https://drive.google.com/open?id=1A54gWxqlH9wnCLeSegRkHVKIamQCRv4Re3gQhXxQ1Ss">Workshop 3D Printing Advanced</a>
 
-<p>vrijdag, 13. September 09:30 – 11:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSc14GVgaE0q75_d2mmVf7IaZ7PVQOYkDbtQauFrMH6Jx-iAmw/viewform">MAKE Open Badge Lasersnijden Basic [CMI (20)]</a><br></p>
+Donderdag, 26 maart 13:00 - 14:30 uu<br/>
+<a href="https://drive.google.com/open?id=1k1CHL5Be9S0jshufB9OFRdXJeCpUEPdXQr7rUiewsCs">Workshop Microbit Basic</a>
 
+Maandag, 30 maart 10:00 - 11:30 uur<br/>
+<a href="https://drive.google.com/open?id=1h5VkL-cDwlU1qau_AxxQ1N_XsdFxMGT75sICyhAgaOE">Workshop Lasercutting Advanced</a>
 
 
-<p>vrijdag, 13. September 14:00 – 15:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLScgBVbaMLCQL-vl0MCPXLNd3bWwMbpBmdNWOcaH3e62C0tUig/viewform">MAKE Open Badge&nbsp; 3D printen Basic [CMI (12)]</a><br></p>
+Woensdag, 1 april 15:00 - 16:30 uur        
+<a href="https://drive.google.com/open?id=1QhduRsPIkd1mkXkb_Faxw4vZjY_uQ0V37XmXvBN1Db4">Workshop Virtual Reality Basic</a>
 
-
-
-<p>donderdag, 19. September 11:00 – 12:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSc5kJxz6Fd-QApDcPNq4W1P55hUl-HIQcuJ21Tw7sh0SDNBPQ/viewform">MAKE Open Badge Lasersnijden Basic [CMI (20)]</a><br></p>
-
-
-
-<p>donderdag, 19. September 13:00 – 14:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSdIt25qgr4ozHWgw8ohtPrvqA_-oxnfEXgCeXSfBDdVD8_pIA/viewform">MAKE Open Badge&nbsp; 3D printen Basic [CMI (12)]</a><br></p>
-
-
-
-<p>donderdag, 19.&nbsp;September 15:00 – 16:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSeom3vVHDREIqQk3PVbAY0Lg9Ltclc0qgiS-fQ3otBfbeNYKw/viewform">MAKE Open Badge Lasersnijden Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 20. September 09:30 – 11:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLScL0zMygpNt5-bWXVDTugOE9fInFI8h4jek_fnfc8V4FTipZQ/viewform">Make Open Badge 3D printen Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 20. September 09:30 – 11:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSepprRk7h9349YWKtG6C3wiEsaT30Wwas2vDsLOwJwbtOBbZA/viewform">MAKE Open Badge Lasersnijden Basic [CMI (20)]</a><br></p>
-
-
-
-<p>vrijdag, 20. September 11:30 – 13:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSc78xyLFYBw632RzlJJHDuf5dFjO_ikwj4XXa2WMulTw-bMuw/viewform">MAKE Open Badge Lasersnijden Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 20. September 14:00 – 15:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSewRPjF7XiNNcwAoOXHbfSLaIhTlAUla6kVX9tP1xmkrvTFcQ/viewform">MAKE Open Badge&nbsp; 3D printen Basic [CMI (12)]</a><br></p>
-
-
-
-<p>vrijdag, 27.&nbsp;September 09:30 – 11:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLScaoysgC-k4dDpPe2dddLdmrEru7_qkkZ_ANMbzPGxvJcCxHQ/viewform">Make Open Badge 3D printen Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 27. September 09:30 – 11:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLScOJYIUJU01Rk222k2RoFJixvn67Y1t0IKp-QBrE1tmQDVDgA/viewform">MAKE Open Badge Lasersnijden Basic [CMI (20)]</a><br></p>
-
-
-
-<p>vrijdag, 27.&nbsp;September 11:30 – 13:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSe8HmU43NEAWFY1tbpYAdVvizOytG8FmjBDmehK1ALK8jvKmA/viewform">MAKE Open Badge Lasersnijden Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 27. September 14:00 – 15:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSe2565md10IffWjLvh-u6esaA2vp_MBcO07pLUkWIIZz33iYA/viewform">MAKE Open Badge&nbsp; 3D printen Basic [CMI (12)]</a><br></p>
-
-
-
-<p>woensdag, 2. Oktober 10:00 – 11:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSc3Js5j2PPQWNQJad_U7wuZ0l6Jo2JjHrfZYd1EzzcT8Go7PA/viewform">MAKE Open Badge Lasersnijden Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 11. Oktober 09:30 – 11:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSfDwfNIT2FWVEtQy8rBkI15IBC6AEx8n1_KbZZXv38ciXp74w/viewform">MAKE Open Badge Lasersnijden Basic [CMI (20)]</a><br></p>
-
-
-
-<p>vrijdag, 11.&nbsp;Oktober 11:30 – 13:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_76cFaz8kv7f7UG08lI1BfxpDIJ4hkCsZ7nXRtbYwcf44yw/viewform">Make Open Badge 3D printen Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 11. Oktober 11:30 – 13:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSewTl4eJYeeD0dWs_aTH0a3KBi9SyauQ3qOfppA15vbybKtlA/viewform">MAKE Open Badge Lasersnijden Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 11. Oktober 14:00 – 15:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSf8x58MknM_smjwmVsfzgSfDZwKC9hncSoIFedQnrqkw4Uk_Q/viewform">MAKE Open Badge&nbsp; 3D printen Basic [CMI (12)]</a><br></p>
-
-
-
-<p>vrijdag, 18. Oktober 09:30 – 11:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSfR0WiLiH9BYIIc8nUnzUsb8TERIbZ4-Az9mzvhy0REoL7rEQ/viewform">MAKE Open Badge Lasersnijden Basic [CMI (20)</a><br></p>
-
-
-
-<p>vrijdag, 18. Oktober 11:30 – 13:00<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSe4__FN5-x4cu9PMyNCnYVrrrddw947DdSfA9TI8yURh0zTRA/viewform">MAKE Open Badge Lasersnijden Advanced [CMI (8)]</a><br></p>
-
-
-
-<p>vrijdag, 18. Oktober 14:00 – 15:30<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSdOu8gLRLK3gRpAxF9H--v8ErLu2LrNKvYnj10fxnd1zka-ng/viewform">MAKE Open Badge&nbsp; 3D printen Basic [CMI (12)</a></p>
-
-
-
-<p><br></p>
-
-
-
-<p><strong>Algemene inschrijving backpack sessions</strong> <br>(momenten waarop je bewijst dat je deze badge verdient): </p>
-
-
-
-<p>10 SEP 2019, DI 14:30 – 15:30<br> 11 SEP 2019, WO 12:00 – 13:00<br> 13 SEP 2019, VR 13:00 – 14:00<br> 25 SEP 2019, WO 12:00 – 13:00<br> 26 SEP 2019, DO 12:00 – 13:00<br> 2 OKT 2019, WO 12:00 – 13:00<br> 4 OKT 2019, VR 11:00 – 12:00<br> 9 OKT 2019, WO 10:00 – 11:00<br> 10 OKT 2019, DO 11:00 – 12:00<br> 11 OKT 2019, VR 13:00 – 14:00</p>
-
+Donderdag, 2 april 13:00 - 14:30 uur<br />    
+<a href="https://drive.google.com/open?id=1kBUMlLlC8718bzY5rkMqr8VFI8HPHoJ3eDDysgwUoy8">Workshop Lasercutting Basic</a>
 
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSey-sIU7M21jmsldZq_E1h5_j4uirZPgpGPTjGoK60U3oPhoA/viewform">Inschrijven voor een van deze backpack sessies doe je hier</a></p>

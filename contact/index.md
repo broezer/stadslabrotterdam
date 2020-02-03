@@ -6,7 +6,8 @@ classes:
 
 **Voor meer informatie over het Stadslab kunt u contact opnemen via [info@stadslabrotterdam.nl](mailto:info@stadslabrotterdam.nl).**
 
-Mocht u liever telefonisch contact opnemen dan kan dat via 010- 794 56 59
+Mocht u liever telefonisch contact opnemen dan kan dat via<br/>
+010 - 794 56 59
 
 {% include hours.html %}
 

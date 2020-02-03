@@ -1,0 +1,4 @@
+Redirect 301 /openbadge http://stadslabrotterdam.nl/open-badge
+Redirect 301 /openbadge/inschrijving-open-badges/ http://stadslabrotterdam.nl/open-badge/inschrijving-open-badges/
+
+Redirect 301 /steward https://sites.google.com/s/1WYW2WOKxWtB8y0MgIhc5nRMCPHf2QXkv/p/1CVzTYu94vom9XDQ4rlJoZTaYll3O0DbB/edit

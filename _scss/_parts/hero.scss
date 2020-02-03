@@ -1,19 +1,22 @@
 .hero{
-    @include ratio(16, 7);
+    @include ratio(21,7);
     position: relative;
-    background-image:url('../assets/img/stadslab_front.jpg');
+    background-image:url('../assets/img/homepage.jpg');
     background-size:cover;
     background-position:center center;
     @include phone{
         @include ratio(16,12);
     }
     &--post{
+        background-image:url('../assets/img/stadslab_front.jpg');
         @include ratio(5, 1);
         @include phone{
             @include ratio(5,2);
         }
     }
 }
+
+
 
 .hero__meta{
     position:absolute;

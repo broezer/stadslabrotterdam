@@ -42,7 +42,7 @@ function sassBuild(){
       .pipe(dest('css'));
 }
 
-exports.default = series(parallel(sassBuild, jekyllBuild), browserSyncInit );
+module.exports.default = series(parallel(sassBuild, jekyllBuild), browserSyncInit );
 
 watch('./_scss/**/*.scss', sassBuild);
 watch(['*.html', 
@@ -54,4 +54,4 @@ watch(['*.html',
         'contact/*',
         'labs/*', 
         'kosten/*' ,
-        'open-badge/*'], series(jekyllBuild,browserSyncReload ));
+        'open-badge/**'], series(jekyllBuild,browserSyncReload ));

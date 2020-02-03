@@ -56,6 +56,13 @@ section.hours{
             background: $color-purple;
         }
     }
+    table.all{
+        width:100%;
+        background:rgba($color-red, 0.3);
+        thead{
+            background: $color-red;
+        }
+    }
     
 }
 
