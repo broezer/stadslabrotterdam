@@ -4,35 +4,9 @@ title: Inschrijving Open Badges
 classes: 
 ---
 
-Maandag, 3. februari 10:00 - 11:30 uur<br />
-<a href="https://drive.google.com/open?id=1jO71EuOOMLdR4mftxQGUSoj5OR071vnEJELZk2xRuIg">Workshop Lasercutting Basic</a>
-
-Woensdag, 5 februari 15:00 - 16:30 uur<br />
-<a href="https://drive.google.com/open?id=1lt8NKft-pnWl7-vc8PsEVD0nd6P0-ilfll-JlEis9cU">Workshop Arduino Basic</a>
-
-Donderdag, 6 februari 13:00 - 14:30 uur<br />
-<a href="https://drive.google.com/open?id=1CBKUa3_r8gWhikrOgkhius-UKpRUSATrVsQf0ZLWmI4">Workshop Lasercutting Advanced</a>
-
-Maandag, 10. februari 10:00 - 11:30 uur<br />
-<a href="https://drive.google.com/open?id=14M_-_kFh_rX-HXTNKjTNFQbtxJpZ8n1GBAoQixRsY2o">Workshop 3D printing Basic</a>
-
-Woensdag, 12 februari 15:00 - 16:30 uur<br />
-<a href="https://drive.google.com/open?id=1SPY1Ll6Fyxv5oB-YOykbe5uB3vxgOSR7RsC-bL2zjuQ">Workshop Microbit Basic</a>
-
-Donderdag, 13 februari 13:00 - 14:30 uur<br />
-<a href="https://drive.google.com/open?id=1sUf8MDvmUToZrW3XFf9jJ04aDR0Ra6OwgfNY98xj5Ss">Workshop 3D printing Advanced</a>
-
-Maandag, 17 februari 10:00 - 11:30 uur<br />
-<a href="https://drive.google.com/open?id=14bStJgTKakL6DU974Qw27Rl94WeNlDbzs9si3smgYms">Workshop Lasercutting Basic</a>
-
-Woensdag, 19 februari 15:00 - 16:30 uur<br />
-<a href="https://drive.google.com/open?id=13LvS1BQj2_Xdt8TxMUpaVEy3sgNTFaoJUYC3wFzKCC0">Workshop Lasercutting Advanced</a>
-
-Donderdag, 20 februari 13:00 - 14:30 uur<br />
-<a href="https://drive.google.com/open?id=1r30X-4216XYsYPO9tbRDaWZJEJgY924ZKsEMp9l-a10">Workshop Virtual Reality Basic</a>
-
-Maandag, 9 maart 10:00 - 11:30 uur<br />
-<a href="https://drive.google.com/open?id=10De3WQEuCVibZcnjuRU3zu1MzhxlErabohMjhUUAXW8">Workshop 3D Printing Basic</a>
+Donderdag, 12 maart 14:00 - 16:00 uur
+[Workshop Virtual Reality Basic
+](https://docs.google.com/forms/d/e/1FAIpQLSdDFOT4xvpw4Ib1INKFrmnMsOhgikSqQsEAsDdWEeOpvVBtGg/viewform) 
 
 Woensdag, 11 maart 15:00 - 16:30 uur<br />
 <a href="https://drive.google.com/open?id=1DNJHuJRpbSzY9KJt4CHkJJoykTcxdhM7nmLMM0PUafY">Workshop Vinylcutting &amp; Vacuumforming</a>
@@ -49,6 +23,9 @@ Woensdag, 18 maart 15:00 - 16:30 uur<br />
 Donderdag, 19 maart 13:00 - 14:30 uur<br />
 <a href="https://drive.google.com/open?id=1mltNkShWUySPLZ63EtaSWYWfutPgSR82PV5yp_yi9fg">Workshop Arduino Basic</a>
 
+Vrijdag, 20 maart 14:00 - 16:00 uur
+[Workshop Virtual Reality Basic](https://docs.google.com/forms/d/e/1FAIpQLSfKIQMTc-8u2_NUb6wsk7HSE5qA3w6_ririGsrdby223mROXg/viewform)
+
 Maandag, 23 maart 10:00 - 11:30 uur<br />
 <a href="https://drive.google.com/open?id=1CgU15aKZ_dKXxvhWVG0MwBZUEswAxvhJfixYl3j9b38">Workshop 3D Printing Basic</a>
 
@@ -57,6 +34,9 @@ Woensdag, 25 maart 15:00 - 16:30 uur <br/>
 
 Donderdag, 26 maart 13:00 - 14:30 uu<br/>
 <a href="https://drive.google.com/open?id=1k1CHL5Be9S0jshufB9OFRdXJeCpUEPdXQr7rUiewsCs">Workshop Microbit Basic</a>
+
+Donderdag, 26 maart 14:00 - 16:00 uur
+[Workshop Virtual Reality Basic](https://docs.google.com/forms/d/e/1FAIpQLSd8Yk9aBHFC5_qP3p-VgMokfyZMlPm_JpEdKkDYJN_aARir7g/viewform)
 
 Maandag, 30 maart 10:00 - 11:30 uur<br/>
 <a href="https://drive.google.com/open?id=1h5VkL-cDwlU1qau_AxxQ1N_XsdFxMGT75sICyhAgaOE">Workshop Lasercutting Advanced</a>

@@ -9,6 +9,8 @@ classes:
 Mocht u liever telefonisch contact opnemen dan kan dat via<br/>
 010 - 794 56 59
 
+{% include vacation.html %}
+
 {% include hours.html %}
 
 **Adres** <br/>

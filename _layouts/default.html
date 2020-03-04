@@ -17,6 +17,16 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/main.css">
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158250925-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-158250925-1');
+        </script>
+
     </head>
     <body class="{{ page.classes }}">
           {% include menu.html %}
@@ -38,6 +48,31 @@
           </main>
           {% include footer.html %}
      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-     <script src="js/main.js"></script>       
+     <script src="js/main.js"></script>    
+     <script src="https://awesome-table.com/AwesomeTableInclude.js"></script>
+     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+     <script>
+      window.addEventListener("load", function(){
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#cf0245",
+            "text": "#ffffff"
+          },
+          "button": {
+            "background": "#813cff",
+            "text": "#ffffff"
+          }
+        },
+        "position": "bottom-right",
+        "content": {
+          "message": "Deze website maakt gebruik van cookies. ",
+          "dismiss": "Ik ga akkoord"
+          //"link": "Lees meer",
+         // "href": "/privacybeleid"
+        }
+      })});
+     </script>   
     </body>
 </html>
