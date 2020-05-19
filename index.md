@@ -16,5 +16,6 @@ De kennis die de afgelopen jaar in het lab is ontwikkeld, met name op het gebied
 ![alt text](assets/svg/stadslabs.svg "SensorLab FabLab DataLab")
 
 
+{% include vacation.html %}
 
 {% include hours.html %}
