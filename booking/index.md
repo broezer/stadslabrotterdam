@@ -16,7 +16,6 @@ Onze openingstijden: \
 Lesweek 1: ma t/m vrij 9-17 \
 Andere weken: ma t/m do 9-21 en vrij 9-17 
 
-We gaan open zaterdag mits er uiterlijk de donderdag ervoor reserveringen zijn geplaatst.
 
  
 Link naar de booking tool:  
