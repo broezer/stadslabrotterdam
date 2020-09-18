@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Stadslab Rotterdam - {{ page.title }}</title>
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{site.baseurl}}/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="{{site.baseurl}}/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/css/webshop.css">
+
+</head>
+
+<body class="{{ page.classes }}">
+  {% include menu.html %}
+  <header class="header hero hero--post">
+    <section class="hero__meta">
+      <h1 class="title">
+        <a href="{{site.baseurl}}/" title="Stadslab Rotterdam - Home"><strong>Stadslab</strong> Rotterdam</a> -
+        {{ page.title }}
+      </h1>
+    </section>
+
+  </header>
+  <main class="">
+
+    <h2 class="post-wrapper">{{ page.title }}</h2>
+
+    <section class="post-wrapper">
+      {{ content }}
+    </section>
+
+    <!-- Begin of stadslab shop -->
+
+    <header class="shop-header">
+      <button class="shop-btn" id="signout_button" style="display: none;">Uitloggen</button>
+      <h1> stadslab winkel </h1>
+    </header>
+
+    <div id="auth-box" style="display: none;">
+      <p>Log in met je Google account om de Stadslab winkel te bekijken.</p>
+      <button class="shop-btn" id="authorize_button">Geef toegang</button> 
+    </div>
+    <div id="shop-container" style="display: none;">
+      <nav class="category-navigation">
+        <ul id="menuCategory">
+        </ul>
+      </nav>
+      <div id="productListContainer">
+        <input type="search" id='searchbar' placeholder="Zoeken">
+        <div id='productList'></div>
+      </div>
+      <div id="productDetail">
+        <p id="productCategory"></p>
+        <h1 id="productName"> </h1>
+        <img id="productImage" src="#" width="200" height="auto" />
+        <p id="productPrice"> </p>
+        <a id="productSupplier" href=""></a>
+      </div>
+    </div>
+
+    <!-- End of stadslab shop -->
+
+  </main>
+  {% include footer.html %}
+  <script src="{{site.baseurl}}/js/shop-inventory.js"></script>
+  <script async defer src="https://apis.google.com/js/api.js"
+    onload="this.onload=function(){};handleClientLoad()"
+    onreadystatechange="if (this.readyState === 'complete') this.onload()">
+  </script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/js/main.js"></script>
+</body>
+
+</html>
