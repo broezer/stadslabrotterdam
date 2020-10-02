@@ -101,6 +101,9 @@ main {
   .logo {
     max-width: 50%; } }
 
+.sbb {
+  max-width: 200px; }
+
 .costs thead {
   text-align: left; }
 

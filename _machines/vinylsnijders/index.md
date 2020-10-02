@@ -6,19 +6,15 @@ title: Vinyl Snijders
 <br/>
 <br/>
 
-![](img/roland.jpg)
+![](img/summa.jpg)
 
-## Roland GX-24
+## Summa D60R-2E 
 
 ### Specificaties
 
-- Materiaal breedte: 
-	- minimaal 50 millimeter 
-	- maximaal 700 millimeter
-- Printformaat: 
-	- 	breedte: 584 millimeter
-	- 	lengte: 24998 millimeter
-- Benodigd bestand: Illustrator, SVG
-
+- Snijbereik 600 mm 
+- Snelheid 80 cm per seconde 
+- Benodigd bestand: ai, .svg 
+- Software: Winplot plug-in voor Illustrator 
 
 
