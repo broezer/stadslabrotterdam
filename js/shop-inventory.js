@@ -87,6 +87,8 @@ function getProducts() {
     let range = response.result;
     if (range.values.length > 0) {
       productList = range.values;
+      // Set our searchlist to this received whole productlist
+      filteredList = productList;
 
       parseData(range.values)
     } else {
