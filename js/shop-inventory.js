@@ -14,8 +14,8 @@ const signoutButton = document.getElementById('signout_button');
 const authBox = document.getElementById('auth-box');
 const shopContainer = document.getElementById('shop-container');
 
-var productList;
-var filteredList;
+let productList;
+let filteredList;
 /**
  *  On load, called to load the auth2 library and API client library.
  */
@@ -42,7 +42,8 @@ function initClient() {
     authorizeButton.onclick = handleAuthClick;
     signoutButton.onclick = handleSignoutClick;
   }, function (error) {
-    appendPre(JSON.stringify(error, null, 2));
+    console.log(error);
+    // Should we display this to the user?
   });
 }
 
@@ -83,7 +84,7 @@ function getProducts() {
     spreadsheetId: '1a4ZZ7E4M3xn6SKBvaMPwmc6ueeai3lHJaXpUnnHF1Jw',
     range: 'Data!B3:G',
   }).then(function (response) {
-    var range = response.result;
+    let range = response.result;
     if (range.values.length > 0) {
       productList = range.values;
 
@@ -101,22 +102,28 @@ function getCategories() {
     spreadsheetId: '1a4ZZ7E4M3xn6SKBvaMPwmc6ueeai3lHJaXpUnnHF1Jw',
     range: 'Data!C3:C',
   }).then(function (response) {
-    var range = response.result;
+    let range = response.result;
     if (range.values.length > 0) {
       const newArr = [];
       for (let i of range.values) {
         newArr.push(i[0])
       }
-
+      
       // Categories is without duplicates
-      var categories = [...new Set(newArr)]
-      var categoryList = document.getElementById('menuCategory');
+      let categories = [...new Set(newArr)]
+      // Remove undefined category
+      const UndefIndex = categories.indexOf(undefined);
+      if (UndefIndex > -1) {
+        categories.splice(UndefIndex, 1);
+      }
+      
+      let categoryList = document.getElementById('menuCategory');
 
       // Clear list
       categoryList.innerHTML = "";
 
       // Create artificial "all products" category
-      var allCategory = document.createElement('li');
+      let allCategory = document.createElement('li');
       allCategory.className = "categoryItem";
       allCategory.innerText = 'Alles';
       categoryList.appendChild(allCategory);
@@ -130,13 +137,13 @@ function getCategories() {
       })
 
       for (let cat of categories) {
-        var li = document.createElement('li');
+        let li = document.createElement('li');
         li.className = "categoryItem";
         li.innerText = cat;
         categoryList.appendChild(li);
         li.addEventListener('click', function (e) {
           makePurple(e);
-          var categoryFilter = productList.filter((product) => {
+          let categoryFilter = productList.filter((product) => {
             return product[1].toLowerCase().includes(e.target.innerText.toLowerCase());
           })
           filteredList = categoryFilter
@@ -162,15 +169,15 @@ function makePurple(e) {
 }
 
 function parseData(sheetRange) {
-  var productList = document.getElementById('productList');
-  var productName = document.getElementById('productName');
-  var productImage = document.getElementById('productImage');
-  var productPrice = document.getElementById('productPrice');
-  var productCategory = document.getElementById('productCategory');
-  var productSupplier = document.getElementById('productSupplier');
+  let productList = document.getElementById('productList');
+  let productName = document.getElementById('productName');
+  let productImage = document.getElementById('productImage');
+  let productPrice = document.getElementById('productPrice');
+  let productCategory = document.getElementById('productCategory');
+  let productSupplier = document.getElementById('productSupplier');
   productList.innerHTML = "";
   for (i = 0; i < sheetRange.length; i++) {
-    var row = sheetRange[i];
+    let row = sheetRange[i];
     if (i == 0) {
       productName.innerText = row[0];
       productImage.src = row[5];
@@ -180,21 +187,18 @@ function parseData(sheetRange) {
       productSupplier.href = row[4];
     }
 
-    var row = sheetRange[i];
-    var productRow = document.createElement('li');
-    var link = document.createElement('a');
-    link.innerText = row[0];
-    link.dataset.productImg = row[5];
-    link.dataset.productName = row[0];
-    link.dataset.productPrice = row[2];
-    link.dataset.productCategory = row[1];
-    link.dataset.productSupplierLink = row[4]
-    link.dataset.productSupplier = row[3];
-    productRow.appendChild(link);
+    let productRow = document.createElement('li');
+    productRow.innerText = row[0];
+    productRow.dataset.productImg = row[5];
+    productRow.dataset.productName = row[0];
+    productRow.dataset.productPrice = row[2];
+    productRow.dataset.productCategory = row[1];
+    productRow.dataset.productSupplierLink = row[4]
+    productRow.dataset.productSupplier = row[3];
     productList.appendChild(productRow)
     productRow.addEventListener('click', function (e) {
-      // Get anchor tag child
-      var elementData = e.target.firstChild.dataset;
+      // Get dataset from target
+      let elementData = e.target.dataset;
       // Fill detail section with data from item that was clicked
       productName.innerText = elementData.productName;
       productImage.src = elementData.productImg;
@@ -206,9 +210,9 @@ function parseData(sheetRange) {
   }
 }
 
-var search = document.getElementById('searchbar');
+let search = document.getElementById('searchbar');
 search.addEventListener('keyup', function (e) {
-  var filter = filteredList.filter((product) => {
+  let filter = filteredList.filter((product) => {
     return product[0].toLowerCase().includes(e.target.value.toLowerCase());
   })
   parseData(filter);
