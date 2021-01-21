@@ -5,6 +5,7 @@ footer.footer{
     text-align:center;
     padding:15px 10px 5px;
     box-sizing:border-box;
+    clear: both;
     p{
         font-size:16px;
         @include phone{

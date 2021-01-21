@@ -36,6 +36,22 @@ title: 3D Printers
 <br/>
 <br/>
 
+![](img/ultimaker3.jpg)
+
+## Ultimaker 3 
+
+### Specificaties
+
+- Print volume: 215 x 215 x 200 mm 
+- Aantal extruders: 2 
+- Slicer software: Cura 
+- Benodigd bestand: .STL of .OBJ 
+- Laaghoogte vanaf: 0.05 mm 
+- Mogelijke materialen: PLA, ABS, CPE 
+
+<br/>
+<br/>
+
 ![](img/bcn3d.jpg)
 
 ## BCN3D Sigma
@@ -48,3 +64,16 @@ title: 3D Printers
 - Benodigd bestand: .STL of .OBJ
 - Laaghoogte vanaf: 0.05 mm
 - Mogelijke materialen: PLA, ABS, PVA, TPE, HIPS, etc
+
+![](img/upplus2.jpg)
+
+## Up Plus 2
+
+### Specificaties
+
+- Print volume: 140 x 140 x 135 mm 
+- Slicer software: UP studio 
+- Benodigd bestand: .STL of .OBJ 
+- Laaghoogte vanaf: 0.15 mm 
+- Mogelijke materialen: PLA, ABS 
+

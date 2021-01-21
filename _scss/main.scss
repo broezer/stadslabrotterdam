@@ -47,6 +47,10 @@ main{
     }
 }
 
+.sbb{
+    max-width:200px;
+}
+
 .costs{
     thead{
         text-align:left;
@@ -82,5 +86,6 @@ main{
 @import "_parts/footer.scss";
 
 @import "_parts/hours.scss";
+@import "_parts/machine--link.scss";
 
 @import "post.scss";
